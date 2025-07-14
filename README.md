@@ -40,7 +40,7 @@ This analysis dives into:
 
 ### 🔹 Current Technology Usage
 
-![Current Technology Dashboard](Screenshot%20(121).png)
+![Current Technology Dashboard](Screenshot%20(124).png)
 
 ---
 
