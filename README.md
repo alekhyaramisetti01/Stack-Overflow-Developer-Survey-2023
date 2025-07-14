@@ -1,84 +1,82 @@
-# 📊 Stack Overflow Developer Survey 2023 – Capstone Analysis
+# Stack Overflow Developer Survey 2023
 
-Capstone project for the **IBM Data Analyst Professional Certificate**.
-
-This project analyzes the [Stack Overflow Developer Survey 2023](https://insights.stackoverflow.com/survey) to uncover current and emerging trends in programming languages, databases, development tools, and demographics using Python, SQL, and data visualization tools.
-
----
-
-## 🚀 Project Objectives
-
-- Identify the most popular technologies and tools among developers.
-- Understand developer preferences for future technologies.
-- Explore trends across countries, age groups, and education levels.
-- Present data-driven insights in a compelling and business-relevant format.
+🎓 **Capstone project** for the IBM Data Analyst Professional Certificate.  
+This project analyzes the Stack Overflow Developer Survey 2023 to uncover current and emerging trends in programming languages, databases, platforms, and developer demographics.
 
 ---
 
-## 🛠️ Tools & Technologies
+## 📌 Project Overview
 
-- **Python** (Pandas, NumPy, Seaborn, Matplotlib)
-- **SQLite** for database storage and queries
-- **Power BI / IBM Cognos Analytics** for dashboarding
-- **Excel** for initial exploration and API/web scraping results
-- **Jupyter Notebook** for exploratory data analysis
+This analysis dives into:
+- Current & future technology preferences among developers
+- Industry demand insights using job posting data
+- Compensation trends, education levels, and developer roles
+- Interactive dashboards built using IBM Cognos Analytics
 
 ---
 
-## 🧪 Data Sources & Collection
+## 🧰 Tools & Technologies
 
-- **Stack Overflow Developer Survey 2023** (under Open Database License)  
-  [Download Dataset](https://insights.stackoverflow.com/survey)
+- **Languages:** Python, SQL (SQLite)
+- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn
+- **Data Visualization:** PowerPoint, IBM Cognos Analytics
+- **APIs & Web Scraping:** JSON API, BeautifulSoup
+- **Data Wrangling:** Handling nulls, duplicates, normalization, outliers
+- **Platform:** Jupyter Notebooks
 
-- **Job Postings Data**  
-  Collected via **API & Web Scraping** using:
-  - `job-postings.xlsx` from a Jobs API
-  - `popular-languages.csv` from web scraping a salary insights page
+---
+
+## 📈 Key Insights
+
+- 🔥 **Python**, **JavaScript**, and **HTML/CSS** dominate developer preferences.
+- 💼 **MySQL** and **PostgreSQL** lead in both usage and future demand.
+- 💻 **Full-stack developers** are the most represented role.
+- 🌍 Developer talent is global — respondents span dozens of countries.
+- 💡 Job satisfaction is **not strongly linked** to salary or experience — culture and growth matter.
 
 ---
 
 ## 📊 Dashboard Highlights
 
-Explore all dashboards inside the final presentation PDF:
+### 🔹 Current Technology Usage
 
-- 📊 **[Current Technology Usage Dashboard](DataAnalystPresentation.pdf#page=13)**  
-  Insights on programming languages, platforms, and developer tools.
-
-- 🔮 **[Future Technology Trends Dashboard](DataAnalystPresentation.pdf#page=14)**  
-  Visualization of technologies developers want to work with next.
-
-- 👥 **[Developer Demographics Dashboard](DataAnalystPresentation.pdf#page=15)**  
-  Age, country, and education-level distribution of survey respondents.
-
-> 📎 _Click links to jump to dashboards in the PDF (best viewed in browser or local PDF viewer)._
+![Current Technology Dashboard](Screenshot%20(121).png)
 
 ---
 
-## 📌 Key Insights
+### 🔹 Future Technology Trends
 
-- **Python**, **JavaScript**, and **SQL** dominate both current use and future interest.
-- **PostgreSQL** and **MongoDB** are highly preferred, with NoSQL gaining popularity.
-- **Full-stack developers** form the largest respondent group (46.7%), reflecting industry demand.
-- Salary and experience show moderate correlation (0.41), but not with job satisfaction.
-- Students make up a significant portion (13%), indicating a strong emerging pipeline.
+![Future Technology Dashboard](Screenshot%20(122).png)
 
 ---
 
----
+### 🔹 Demographics Overview
 
-## ✅ Completed Modules
+![Demographics Dashboard](Screenshot%20(123).png)
 
-- ✅ Collecting data using **APIs** and **Web Scraping**
-- ✅ Data cleaning: removing duplicates, missing values, normalization
-- ✅ Exploratory Data Analysis (EDA): outlier detection, correlation
-- ✅ Data visualization using **Seaborn**, **Matplotlib**, and **Cognos**
-- ✅ Dashboard creation and storytelling in PowerPoint
 
 ---
 
-## 💡 About
+## 📄 Final Presentation
 
-Built as part of the final capstone for the IBM Data Analyst Certificate.  
-Presented with business-friendly dashboards and insights to aid data-driven hiring and technology strategy.
+🎥 A complete summary of this project has been compiled in [DataAnalystPresentation.pdf](./DataAnalystPresentation.pdf), including:
+- Executive Summary
+- Methodology
+- Visual Trends
+- Dashboard Snapshots
+- Insights & Conclusions
 
 ---
+
+## 🏁 Conclusion
+
+This capstone project demonstrates the full lifecycle of data analytics — from data collection and cleaning to insightful dashboards. It showcases hands-on skills in wrangling, EDA, and storytelling — essential for real-world data analyst roles.
+
+---
+
+## 🔗 Dataset Source
+
+Stack Overflow Developer Survey 2023 – [Open Database License (ODbL)](https://insights.stackoverflow.com/survey)
+
+
+
